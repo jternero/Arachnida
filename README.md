@@ -31,13 +31,6 @@ python spider.py -r -l 2 -p ./images https://www.example.com
 
 **`Si no se pasa ningún parámetro, el programa le pedirá al usuario que introduzca los valores necesarios`**.
 
-```
-$ python spider.py
-URL of the web page: https://www.example.com
-Download images from pages linked to the URL recursively? (y/n) y
-Maximum level of recursion when downloading images (default: 1): 2
-Path to the folder where images will be saved (default: images.url): ./images
-```
 
 Este código descargará imágenes de (https://www.example.com/)  y de todas las páginas vinculadas a ella hasta un nivel de 2. 
 Las imágenes se guardarán en la carpeta  `./images`.
