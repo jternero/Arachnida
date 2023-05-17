@@ -6,7 +6,7 @@ from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 
 """
-Spider Gonzalez - Download images from a web page recursively.
+Spider - Download images from a web page recursively.
 
 Usage:
 spider.py [-r] [-l <levels>] [-p <path>] <url>
