@@ -3,13 +3,12 @@ Web Scrapping Program
 
 
 
+
 ## *Spider*
 
  
 
-Spider es un programa de Python que permite descargar imágenes de una página web de forma recursiva.
-
-El programa puede descargarse de forma local o desde una URL, y puede descargar imágenes de páginas vinculadas a la URL de forma recursiva.
+Spider Gonzalez es un programa de Python que permite descargar imágenes de una página web de forma recursiva. El programa puede descargarse de forma local o desde una URL, y puede descargar imágenes de páginas vinculadas a la URL de forma recursiva.
 
 ## Uso
 
@@ -28,6 +27,8 @@ Ejemplo de uso:
 python spider.py -r -l 2 -p ./images https://www.example.com
 
 ```
+
+**`Si no se pasa ningún parámetro, el programa le pedirá al usuario que introduzca los valores necesarios`**.
 
 Este código descargará imágenes de (https://www.example.com/)  y de todas las páginas vinculadas a ella hasta un nivel de 2. Las imágenes se guardarán en la carpeta  `./images`.
 
